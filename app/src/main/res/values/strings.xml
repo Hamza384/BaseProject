@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BaseProject</string>
+
+
+
+
+    <string name="priv_link">https://fakechatmaker-whatsfakeprivacypolicy.blogspot.com/p/fake-chat-maker-whatsfake-app-privacy.html?m=1</string>
+    <string name="user_term_nd_conditions">User Term &amp; Conditions</string>
+    <string name="privacy_policy_text"> zeta Apps built the Fake Chat Maker – WhatsFake app as a Free app. This SERVICE is provided by zeta Apps at no cost and is intended for use as is.
+
+This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service. </string>
+    <string name="tick_the_box">Please tick the box to accept privacy policy</string>
+
+
+</resources>
