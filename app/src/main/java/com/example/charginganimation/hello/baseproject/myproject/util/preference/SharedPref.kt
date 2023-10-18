@@ -5,6 +5,7 @@ import android.content.SharedPreferences
 
 private const val IS_FIRST_TIME = "IS_FIRST_TIME"
 private const val SHOW_BATTERY = "SHOW_BATTERY"
+private const val LOCALE = "LOCALE"
 
 
 class SharedPref(private val sharedPreferences: SharedPreferences) {
@@ -25,6 +26,16 @@ class SharedPref(private val sharedPreferences: SharedPreferences) {
         set(value) {
             sharedPreferences.edit().apply {
                 putBoolean(SHOW_BATTERY, value)
+                apply()
+            }
+        }
+
+
+    var saveLocale: String
+        get() = sharedPreferences.getString(LOCALE, "en") ?: "en"
+        set(value) {
+            sharedPreferences.edit().apply {
+                putString(LOCALE, value)
                 apply()
             }
         }
